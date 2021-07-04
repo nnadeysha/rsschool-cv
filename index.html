@@ -16,14 +16,16 @@
     </div>
     </header>
     <main>
-      <div class="container">
+      <section class="container">
         <div>
           <h3> СONTACT DETAILS</h3>
-          Phone: +7 (982) 817-24-73
+          <ul>
+            <li>Phone: +7 (982) 817-24-73</li>
+          </ul>
         </div>  
         <div>
-          <h3>ABOUT MYSELF</h3>
-          <p>
+          <article>
+            <h3>ABOUT MYSELF</h3>
             I'm 30 years old. I'm a student at RS-School, I study Java Script.
             I want to become a front-end developer.
             My priorities in work: interesting job where I can always progress, see the result of my work.
@@ -32,57 +34,52 @@
             store. We launched a new website for an online store and I worked a lot with the developers, 
             mainly I gave instructions to finalize the application and add new functionality. 
             It was then that I became interested in development.
-          </p>
+          </article>
         </div>
         <div>
           <h3>PROGRAMMING SKILLS</h3>
-          <p>
-            I have little programming experience at the moment. 
-            I can work with git, vscode, quite a bit with node.js, 
-            I have basic knowledge of js and layout.
-          </p>
+          I have little programming experience at the moment.
+          <ul> 
+            <li>Basic git</li>
+            <li>VSCode</li>
+            <li>Quite a bit with node.js</li>
+            <li>Basic JS</li>
+            <li>Layout</li>
+          </ul>
         </div>
         <div>
           <h3>SAMPLE CODE</h3>
-          <code>
-            const startCorrespondOver = (event) => {<Br>
-              if (event.target.classList.contains("piano-key"))<Br>
-              {<Br>
-              event.target.classList.add("active");<Br>
-              const note = event.target.dataset.note;<Br>
-              const src = `assets/audio/${note}.mp3`;<Br>
-              playAudio(src);<Br>
-              keys.forEach((elem) => {<Br>
-                  elem.addEventListener("mouseover", StartAudio)<Br>
-                  elem.addEventListener("mouseout", StopAudio)<Br>
-              });<Br>
-              }<Br>
-          };
-          </code>
+          <figure>
+            <img src="./assets/code.jpg" alt="example of my code">
+            <figcaption>Example of my code</figcaption>
+          </figure>
         </div>
         <div>
           <h3>EDUCATION</h3>
-          Personnel management (Izhevsk Cooperative College, 2008)
-          Accounting, Analysis and Audit (Izhevsk State Agricultural Academy, 2016)
-          Complete course JS + React from Ivan Pertichenko 41 hours (online course, 2021)
+          <aside>
+            Personnel management (Izhevsk Cooperative College, 2008)
+            Accounting, Analysis and Audit (Izhevsk State Agricultural Academy, 2016)
+            Complete course JS + React from Ivan Pertichenko 41 hours (online course, 2021)
+          </aside>
         </div>
         <div class="language">
           <h3>ENGLISH LANGUAGE</h3>
           I am currently studying English at Orange school in Izhevsk.
         </div>
-      </div>
+      </section>
     </main>
     <footer>
-      <div class="footer">
+      <nav class="footer">
         <a href="https://github.com/nnadeysha">
           <img src="./assets/github_logo_svg.svg" alt="my githab" width="48">
         </a>
-        <p>2021</p>
+        <p>
+          <time>2021</time>
+        </p>
         <a href="https://github.com/nnadeysha">
           <img src="./assets/rs_school_js.svg" alt="rs_school_js" width="90">
         </a>
-      </div>
-      
+      </nav>
     </footer>
 </body>
 </html>

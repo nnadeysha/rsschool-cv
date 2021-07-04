@@ -19,7 +19,7 @@ h1 {
     color:aliceblue;
     
 }
-div {
+div, section {
     color: aliceblue;
     line-height: 30px;
     font-family: 'Courier New', Courier, monospace;
