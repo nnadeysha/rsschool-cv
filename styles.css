@@ -50,3 +50,6 @@ main {
     border: 4px solid rgb(231, 82, 187); 
     padding: 5px;
 }
+article {
+    text-align: justify;
+}
